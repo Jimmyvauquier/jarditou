@@ -3,9 +3,12 @@ var a = window.prompt("Saisissez votre nom");
 var b = window.prompt("Saisissez votre prénom");
 window.alert(b + " bienvenu à toi");
 
-var reponse2 = window.prompt("Etes vous un homme?");
-alert ("femme?");
-if (window.confirm("Voulez-vous continuer ?") == true) 
+var c = window.prompt("Etes vous un homme?");
+if (window.confirm("Voulez-vous continuer ?") == true)
+window.alert("bienvenue sur le site 100% Barber");
+if (window.confirm("ce site est exclusivement machiste,pas de poil au menton=au revoir") == false)
+
+
 
 
 
