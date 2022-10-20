@@ -1,53 +1,7 @@
+//exercice7 (exo3)
 
-
-//exercice7
-
-
-var a ="0";
-console.log("Coisissez un nombre entre 0 et 10000");
-console.log = a
-while (a<=10000);
-if (a/2==0);
-{
-    console.log("Chiffre pair");
-}
-else
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+var nbr1="nbr1";
+var nbr2="nbr2";
+<input id="nbr1"> + <input id="nbr2">
+<button onclick="somme()">Calculer la somme</button>
+= <input id="sum">
