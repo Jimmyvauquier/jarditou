@@ -102,5 +102,25 @@ resultat=(x)||(n)+("*")+("multiplicateur");
 alert=resultat;
 
 
+//exercice8 (exo5)
+var mot = window.prompt("Saisissez votre mot");
+var c = parseInt("consonne");
+var v = parseInt("voyelle");
 
+ voyelle = 0, consonne = 0;
+for(i=0;chaine[i];++i)
+   
+   if( "aeiouy")
+   {
+      ++voyelle;
+      console.log (v=v+1);
+      windows.alert(voyelles);
+   }
+   
+   if( "bcdfghjklmnpqrstvwxz" )
+   {
+     ++consonne;
+    console.log (c=c+1);
+    windows.alert(consonnes);
+   }
 
