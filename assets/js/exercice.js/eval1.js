@@ -6,7 +6,7 @@ var v=0;
 var nbre=0;
 while (nbre<=100)
 {
-var nbre = parseInt(prompt("entrez votre age"));
+var nbre = parseInt(prompt("entrez votre nombre"));
 console.log(nbre);
     if (nbre<20)
     {
