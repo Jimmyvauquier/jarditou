@@ -35,7 +35,7 @@ var code_postal_v= /^[0123456789]/;
 function f_valid(e){
     if(code_postal.validity.valueMissing){
       e.preventDefault();
-      code_postal.textContent ="code postal manquant";
+      code_postal_m.textContent ="code postal manquant";
       code_postal_m.style.color = "red";
     }else if (code_postal_v.test(code_postal.value) == false){
       e.preventDefault();
