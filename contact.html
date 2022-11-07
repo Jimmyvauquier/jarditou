@@ -31,16 +31,26 @@
  <h1>Contact</h1>
   <fieldset>
     <legend> Vos Coordonnées</legend>
-    <label for="nom">Nom:</label><input type="text" name="nom" id="nom"><br>
-    <label for="prenom">prenom:</label><input type="text" name="prenom" id="prenom"><br>
+
+    <label for="nom">Nom:</label><input type="text" name="nom" id="nom" required>
+    <span id="nom_manquant"></span>
+    <br>
+    <label for="prenom">prenom:</label><input type="text" name="prenom" id="prenom" required>
+    <span id="prenom_manquant"></span>
+    <br>
   <p>Sexe</p>
      <input type="radio" name="sexe" value="Féminin"> Féminin
      <input type="radio" name="sexe" value="Masculin"> Masculin<br>
-     <label for="date">Date de naissance:</label><input type="date" name="ddn" id="date"><br>
-     <label for="Code_postal">code postal:</label><input type="text" name="Code_postal" id="Code_postal"><br>
-     <label for="Adresse">adresse:</label><input type="text" name="Adresse" id="Adresse"><br>
-     <label for="Ville">ville:</label><input type="text" name="Ville" id="Ville"><br>
-     <label for="Email">email:</label><input type="text" name="Email" id="Email"><br>
+     <label for="date">Date de naissance:</label><input type="date" name="ddn" id="date" required>
+     <span id="date_manquante"></span><br>
+     <label for="code_postal">code postal:</label><input type="text" name="code_postal" id="code_postal" required>
+     <span id="code_postal__manquant"></span><br>
+     <label for="adresse">adresse:</label><input type="text" name="adresse" id="adresse" required>
+     <span id="adresse_manquante"></span><br>
+     <label for="ville">ville:</label><input type="text" name="ville" id="ville" required>
+     <span id="ville_manquante"></span><br>
+     <label for="email">email:</label><input type="text" name="email" id="email"required>
+     <span id="email_manquant"></span><br>
   </fieldset>
   <fieldset>
     <legend> Votre demande </legend>
@@ -65,7 +75,8 @@
     <input type="checkbox" name="données" value="*J'accepte le traitement informatique de ce formulaire" > *J'accepte le traitement informatique de ce formulaire
 </fieldset>
 <fieldset>
-    <button type="submit">Envoyer</button> <button type="submit">Annuler</button>
+    <button type="submit" id="Envoyer">Envoyer</button>
+    <button type="submit">Annuler</button>
 </fieldset>
     <footer>
     <nav>
@@ -76,6 +87,7 @@
        </ul>
     </nav>
     </footer>
+    <script src="/assets/js/exercice.js/eval5.js"> </script> 
 </body>
 </html>
 
