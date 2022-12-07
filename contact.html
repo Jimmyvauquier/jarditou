@@ -8,17 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-      </head>
-<body class="container-fluid">
+  </head>
+      <body class="container-fluid">
+        <div class="container">
   
   <header id="entete" class="d-flex justify-content-between">
     <div id="entete">
-   <img src="assets/src/img/jarditou_logo.jpg" class="w-25 col-6" alt="Logo Jarditou" title="Logo Jarditou" >
- <p>
-    <b id="titre" class="d-flex">La Qualité depuis 70 ans</b>
- </p>
-  </div>
-</header>
+      <img src="assets/src/img/jarditou_logo.jpg" class="w-25 col-6" alt="Logo Jarditou" title="Logo Jarditou">
+       <p id="titre">
+         La Qualité depuis 70 ans
+      </p> 
+    </div>
+
+ </header>  
    <nav>
     <ul>
             <li><a href="index.html">Accueil</a></li>
@@ -26,43 +28,45 @@
             <li><a href="contact.html">Contact</a></li>
     </ul>
    </nav>
- <img src="assets/src/img/promotion.jpg" width="1860" alt="bannière promotion" title="bannière">
+ <img src="assets/src/img/promotion.jpg" class="img-fluid" alt="bannière promotion" title="bannière">
  <h1>Contact</h1>
   <fieldset>
     <legend> Vos Coordonnées</legend>
 
-    <label for="nom">Nom:</label><input type="text" name="nom" id="nom" required>
+    
+    <label for="nom">Nom*:</label><input type="text" class="w-100 col-12" name="nom" id="nom" required>
     <span id="nom_manquant"></span>
     <br>
-    <label for="prenom">prenom:</label><input type="text" name="prenom" id="prenom" required>
+    <label for="prenom">Prenom*:</label><input type="text" class="w-100 col-12" name="prenom" id="prenom" required>
     <span id="prenom_manquant"></span>
     <br>
-  <p>Sexe</p>
+  <p>Sexe*</p>
      <input type="radio" name="sexe" value="Féminin"> Féminin
      <input type="radio" name="sexe" value="Masculin"> Masculin<br>
-     <label for="date">Date de naissance:</label><input type="date" name="ddn" id="date" required>
+     <label for="date">Date de naissance*:</label><input type="date" class="w-100 col-12" name="ddn" id="date" required>
      <span id="date_manquante"></span><br>
-     <label for="code_postal">code postal:</label><input type="text" name="code_postal" id="code_postal" required>
+     <label for="code_postal">Code postal*:</label><input type="text" class="w-100 col-12" name="code_postal" id="code_postal" required>
      <span id="code_postal__manquant"></span><br>
-     <label for="adresse">adresse:</label><input type="text" name="adresse" id="adresse" required>
+     <label for="adresse">Adresse:</label><input type="text" class="w-100 col-12" name="adresse" id="adresse" required>
      <span id="adresse_manquante"></span><br>
-     <label for="ville">ville:</label><input type="text" name="ville" id="ville" required>
+     <label for="ville">Ville:</label><input type="text" class="w-100 col-12" name="ville" id="ville" required>
      <span id="ville_manquante"></span><br>
-     <label for="email">email:</label><input type="text" name="email" id="email"required>
+     <label for="email">Email*:</label><input type="text" class="w-100 col-12" name="email" id="email"required>
      <span id="email_manquant"></span><br>
   </fieldset>
   <fieldset>
     <legend> Votre demande </legend>
     <label for="couleur">Sujet</label>
-    <select id="couleur"> 
+    <select id="couleur" class="w-100 col-12"> 
         <option value="" selected>-</option>
-        <option value="Mes commandes">mes commandes</option>
-        <option value="Question sur un produit">question sur un produit</option>
-        <option value="Réclamations">réclamations</option>
-        <option value="Autres">autres</option>
+        <option value="Mes commandes">Mes commandes</option>
+        <option value="Question sur un produit">Question sur un produit</option>
+        <option value="Réclamations">Réclamations</option>
+        <option value="Autres">Autres</option>
     </select>
-    <p>Votre question
-    <textarea name="commentaire" rows="10" cols="50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    <p>Votre question*</p>
+    <p>
+    <textarea name="commentaire" class="w-100 col-12" rows="10" cols="50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Donec sagittis quis metus ornare semper. In vitae lacus ex. In elementum iaculis malesuada. 
         Maecenas vulputate, erat id molestie dictum, diam dolor faucibus nisl, in pharetra sapien libero eget risus. Morbi vehicula aliquam placerat. 
         Suspendisse mollis tempus dictum. Nullam suscipit nec massa eget viverra. Etiam feugiat facilisis est nec euismod. 
@@ -75,7 +79,7 @@
 </fieldset>
 <fieldset>
     <button type="submit" id="Envoyer">Envoyer</button>
-    <button type="submit">Annuler</button>
+    <button type="submit" >Annuler</button>
 </fieldset>
     <footer>
     <nav>
