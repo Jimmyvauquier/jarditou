@@ -4,21 +4,15 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=!, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" media="screen and (max-width: 575px)" href="mobile.css">
-        <link rel="stylesheet" media="screen and (min-width: 576px)" href="tablette.css">
-        <link rel="stylesheet" media="screen and (min-width: 992px)" href="desktop.css"> 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
-<body>
-
-
-
-      <header>
-
+<body class="container-fluid">
+   <div class="container">
+     <header id="entete" class="d-flex justify-content-between">
          <div id="entete">
-         <img src="assets/src/img/jarditou_logo.jpg" width="250" alt="Logo Jarditou" title="Logo Jarditou" >
+           <img src="assets/src/img/jarditou_logo.jpg" class="w-25 col-6" alt="Logo Jarditou" title="Logo Jarditou">
             <p id="titre">
               La Qualité depuis 70 ans
            </p> 
@@ -34,10 +28,10 @@
       </ul>
    </nav>
 
- <img src="assets/src/img/promotion.jpg" alt="bannière promotion" title="bannière" id="bigpromo">
+ <img src="assets/src/img/promotion.jpg" class="img-fluid" alt="bannière promotion" title="bannière" id="bigpromo">
 
-<section id="blabla">
-   <article>
+<section id="blabla"class="d-flex">
+   <article class="pl-3 bg-info">
       <b>L'entreprise</b>
          <p>
             Notre entreprise familiale met tout son savoir-faire à votre disposition dans le domaine du jardin et du paysagisme.
@@ -55,20 +49,18 @@
          Vous souhaitez un devis ? Nous vous le réalisons gratuitement.
          </p>
       </article>
-      <aside class="box">
-         colonne droite
-      </aside>
-   </section>
-
-   
-   <footer id="basdepage">
+   <aside class="d-flex">
+         [colonne droite]
+   </aside>
+</section>
+<footer id="basdepage">
       <ul>
       <li><a href="#">Mentions légales</a></li>
       <li><a href="#">Horaires</a></li>
       <li><a href="#">Plan du site</a></li>
    </ul>
    </footer>
-  
+</div>
 </body>
 </html>
 
