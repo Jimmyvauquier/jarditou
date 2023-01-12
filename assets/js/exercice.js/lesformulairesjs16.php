@@ -7,12 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-
+<form action="script.php" method="post">
 
     <fieldset>
         <legend> Vos Coordonnées</legend>
 
-        <label for="société">société:</label><input type="text" name="société" id="société"><br>
+        <label for="société">société:</label><input type="text" name="societe" id="société"><br>
         <label for="personne_à_contacter">personne à contacter:</label><input type="text" name="personne_à_contacter" id="personne_à_contacter"><br>
       
         <label for="Adresse de l'entreprise">adresse de l'entreprise:</label><input type="text" name="Adresse de l'entreprise" id="Adresse de l'entreprise"><br>
