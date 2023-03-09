@@ -19,13 +19,13 @@ CREATE TABLE commande(
       FOREIGN key (cli_num) REFERENCES client (cli_num)
        );
 CREATE TABLE produit(
-        pro_num           INT NOT NULL,PRIMARY key AUTO_INCREMENT
+        pro_num           INT NOT NULL,PRIMARY key AUTO_INCREMENT,
         pro_libelle       INT NOT NULL,
         pro_description   DATE NOT NULL,
         FOREIGN KEY (pro_num) REFERENCES detail (pro_num)
        );
 CREATE TABLE detail(
-        com_num          INT NOT NULL,PRIMARY key AUTO_INCREMENT
+        com_num          INT NOT NULL,PRIMARY key AUTO_INCREMENT,
         pro_num          INT NOT NULL,
         det_qte          DATE NOT NULL,
         FOREIGN KEY (com_num) REFERENCES commande(com_num)
